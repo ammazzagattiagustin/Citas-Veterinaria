@@ -1,4 +1,4 @@
-const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
+export const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
     const { nombre, propietario, email, fecha, sintomas, id } = paciente
 
     const handleEliminar = () => {
@@ -48,4 +48,3 @@ const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
     )
 }
 
-export default Paciente

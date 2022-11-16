@@ -1,6 +1,6 @@
-import Paciente from "./Paciente"
+import { Paciente } from "./"
 
-const ListadoPacientes = ({ pacientes, setPaciente, eliminarPaciente }) => {
+export const ListadoPacientes = ({ pacientes, setPaciente, eliminarPaciente }) => {
     return (
         <div className="md:w-1/2 lg:w-3/5 md:h-screen overflow-y-scroll">
 
@@ -34,8 +34,6 @@ const ListadoPacientes = ({ pacientes, setPaciente, eliminarPaciente }) => {
         </div>
     )
 }
-
-export default ListadoPacientes
 
 
 // overflow-y-scroll interesante clase para generar scroll
