@@ -6,3 +6,5 @@ export const Header = () => {
         </h1>
     )
 }
+
+// {""} para agregar un espacio
